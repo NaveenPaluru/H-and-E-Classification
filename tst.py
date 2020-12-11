@@ -227,7 +227,7 @@ saveDir='./savedModels/'
 cwd=os.getcwd()
 
 # if want to test on a specific model
-directory=saveDir+"11Dec_1045am_model/"+ "ENet20_model.pth"
+directory=saveDir+"ENet20_model.pth"
 print('Loading the Model : ', directory)
 test(directory)
 
