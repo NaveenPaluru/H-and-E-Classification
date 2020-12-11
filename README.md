@@ -8,8 +8,8 @@ Download the data from [here](https://idr.openmicroscopy.org/webclient/?show=pro
 
 ## Python Files
 
-**trn.py** is the run file to train the ENet+ model. **tst.py** is the testing file for evaluation, **enet.py** has model definition, **config.py** is the configuration file and **myDataset.py** is data iterator.
+**trn.py** is the run file to train the ENet model. **tst.py** is the testing file for evaluation, **enet.py** has the ENet model definition, **config.py** is the configuration file and **myDataset.py** is data iterator.
 
 ## Matlab Files
 
-**makemetadata.m** will read the data from annatations.csv and prepare the labels. **arrangedata.m**  will read the images from specified directory and accumulates the data for training, validation and testing.
+**makemetadata.m** will read the data from annatations.csv and prepares the labels. **arrangedata.m**  will read the images from specified directory and accumulates the data for training, validation and testing.
